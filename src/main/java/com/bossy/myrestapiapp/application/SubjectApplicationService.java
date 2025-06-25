@@ -45,6 +45,7 @@ public class SubjectApplicationService {
 		if (responseList.isEmpty()) {
 			return new SubjectResponseDto[0];
 		}
+		System.out.println("git test");
 		return responseList.toArray(new SubjectResponseDto[0]);
 	}
 }
