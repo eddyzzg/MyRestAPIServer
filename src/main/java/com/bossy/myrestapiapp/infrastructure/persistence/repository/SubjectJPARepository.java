@@ -12,7 +12,7 @@ import com.bossy.myrestapiapp.domain.model.SubjectPOJO;
 import com.bossy.myrestapiapp.domain.repository.SubjectRepository;
 import com.bossy.myrestapiapp.infrastructure.persistence.entity.SubjectJPAEntity;
 
-//interface Spring Data JPA
+//interface Spring Data JPA (Hibernate)
 interface springRepo extends JpaRepository<SubjectJPAEntity, String> {
 }
 

@@ -58,7 +58,7 @@ public class SubjectPOJO {
 		return lastUpdatedDate;
 	}
 
-	// Statyczna metoda do konwersji z JPA Entity na domenową
+	// Statyczna metoda do konwersji z JPA Entity na domenową (POJO)
 	public static SubjectPOJO from(String id, String name, String description, Date creationDate,
 			Date lastUpdatedDate) {
 		return new SubjectPOJO(id, name, description, creationDate, lastUpdatedDate);
